@@ -1,0 +1,26 @@
+.available-hide-desktop {
+  display: none;
+}
+
+.available-hide-mobile {
+  display: block;
+}
+
+select.room-select-contain {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 12px 10px;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+  .available-hide-desktop {
+    display: block;
+  }
+  .available-hide-mobile {
+    display: none;
+  }
+}
